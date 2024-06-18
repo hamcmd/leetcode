@@ -1,11 +1,12 @@
-# Contains Duplicate:
-Question [Leetcode # 217](https://leetcode.com/problems/contains-duplicate)
+# Contains Duplicate
+Question: [Leetcode # 217](https://leetcode.com/problems/contains-duplicate)
+Difficulty: Easy
+Solutions/Explanation: [NeetCode](https://www.youtube.com/watch?v=3OamzN90kPg&ab_channel=NeetCode)
 
 ## Description
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 ## Examples
-
 Input: `nums = [1,2,3,1]`
 Output: `true`
 
