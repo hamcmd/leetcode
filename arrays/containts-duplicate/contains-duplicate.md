@@ -23,5 +23,5 @@ Output: `true`
 
 ## Solution Notes
 1. Brute force solution is to use two loops to compare each element with every other element. This will take `O(n^2)` time complexity.
-2. A better solution is to sort the array and then compare each element with the next element. This will take `O(nlogn)` time complexity.
-3. A better solution is to use a hash set to store the elements as we iterate through the array. If we find an element that is already in the hash set, we return true. This will take `O(n)` time complexity.
+2. A better solution is to sort the array and then compare each element with the next eslement. This will take `O(nlogn)` time complexity.
+3. **(Recommended)** A better solution is to use a hash set to store the elements as we iterate through the array. If we find an element that is already in the hash set, we return true. This will take `O(n)` time complexity.
