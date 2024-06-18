@@ -1,7 +1,7 @@
-# Question
-LeetCode: [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-Difficulty: Easy
-Solution: [NeetCode](https://www.youtube.com/watch?v=9UtInBqnCgA&ab_channel=NeetCode)
+# Valid Anagram
+**Question**: [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+**Difficulty**: Easy
+**Solution**: [NeetCode](https://www.youtube.com/watch?v=9UtInBqnCgA&ab_channel=NeetCode)
 
 ## Description
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
@@ -10,11 +10,11 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 
 ## Examples
-Input: `s = "anagram"`, `t = "nagaram"`
-Output: `true`
+**Input**: `s = "anagram"`, `t = "nagaram"`
+**Output**: `true`
 
-Input: `s = "rat"`, `t = "car"`
-Output: `false`
+**Input**: `s = "rat"`, `t = "car"`
+**Output**: `false`
 
 
 ## Constraints
