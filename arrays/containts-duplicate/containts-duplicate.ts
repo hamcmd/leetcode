@@ -1,12 +1,13 @@
-export function containsDuplicate(nums: number[]): boolean {
-    const map = new Map<number, boolean>();
-    for (let i = 0; i < nums.length; i++) {
-        if (map.get(nums[i])) {
-            return true;
-        }
+export function containsDuplicate( nums: number[] ): boolean {
+  const map = new Map<number, boolean>();
 
-        map.set(nums[i], true);
+  for( let i = 0; i < nums.length; i++ ) {
+    if( map.get( nums[ i ] ) ) {
+      return true;
     }
 
-    return false;
-};
+    map.set( nums[ i ], true );
+  }
+
+  return false;
+}

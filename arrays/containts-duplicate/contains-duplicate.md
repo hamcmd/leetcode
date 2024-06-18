@@ -1,4 +1,4 @@
-# Contains Duplicate: 
+# Contains Duplicate:
 Question [Leetcode # 217](https://leetcode.com/problems/contains-duplicate)
 
 ## Description
@@ -14,7 +14,7 @@ Output: `false`
 
 Input: `nums = [1,1,1,3,3,4,3,2,4,2]`
 Output: `true`
- 
+
 
 ## Constraints
 `1 <= nums.length <= 105`
