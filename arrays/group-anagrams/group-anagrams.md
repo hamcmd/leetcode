@@ -1,7 +1,7 @@
 # Group Anagrams
 __Question__: [LeetCode # 49](https://leetcode.com/problems/group-anagrams)
 __Difficulty__: Medium
-__Solution__: [NeetCode](https://www.youtube.com/watch?v=vzdNOK2oB2E)
+__Solutions__: [NeetCode](https://www.youtube.com/watch?v=vzdNOK2oB2E)
 
 ## Description
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.

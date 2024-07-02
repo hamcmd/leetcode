@@ -1,6 +1,6 @@
 import { containsDuplicate } from "./containts-duplicate";
 
-test( "contains-duplicate", function() {
+test( "contains-duplicate", () => {
   const arrays = [
     { arr: [ 1, 2, 3, 1 ], isDuplicate: true },
     { arr: [ 1, 2, 3, 4 ], isDuplicate: false },
