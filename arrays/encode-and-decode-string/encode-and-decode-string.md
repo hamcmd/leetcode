@@ -21,6 +21,6 @@ Please implement encode and decode
 `strs[i] contains only UTF-8 characters.`
 
 ## Solution Notes
-- The idea is to encode the list of strings into a single string by concatenating the strings with a delimiter. But the string can have any character, so we need to choose a delimiter wisely. We can use a combination of the length of the string and a special character as a delimiter in the encoding function.
-- While decoding, we can use the length of the string to extract the string from the encoded string. The trick is to remember that the length of the string can be more than one digit, so we need to handle that case as well. We can use a special character to separate the length of the string and the string itself.
-- Both encode and decode operations take O(n) time complexity, where n is the number of strings in the list.
+- The idea is to encode the list of strings into a single string by concatenating the strings with a delimiter. But the `string can have any character`. We can use a `combination of the length of the string and a special character` as a delimiter in the encoding function.
+- While decoding, we can use the length of the string to extract the string from the encoded string. The trick is to `remember that the length of the string can be more than one digit`, so we need to handle that case as well. 
+- Both encode and decode operations take `O(n)` time complexity, `where n is the number of strings in the list`.
