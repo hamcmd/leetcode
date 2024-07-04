@@ -14,14 +14,12 @@ export function topKFrequent( nums: number[], k: number ): number[] {
   const bucket: number[][] = new Array( nums.length + 1 ).fill( [] );
 
   for( const key of map.keys() ) {
-    const val = map.get( key );
+    const val = map.get( key )!;
 
-    if( val ) {
-      if( bucket[ val ].length === 0 ) {
-        bucket[ val ] = [ key ];
-      } else {
-        bucket[ val ].push( key );
-      }
+    if( bucket[ val ].length === 0 ) {
+      bucket[ val ] = [ key ];
+    } else {
+      bucket[ val ].push( key );
     }
   }
 
