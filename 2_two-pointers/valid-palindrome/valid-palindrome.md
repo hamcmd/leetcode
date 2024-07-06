@@ -24,3 +24,12 @@ __Explanation__: s is an empty string `""` after removing non-alphanumeric chara
 ## Constraints
 1 <= s.length <= 2 * 105
 s consists only of printable ASCII characters.
+
+## Solution Notes
+1. We can use the two-pointer approach to solve this problem.
+2. First, we convert the string to lowercase and remove all non-alphanumeric characters.
+3. We use two pointers, one at the start of the string and the other at the end of the string.
+4. We compare the characters at the start and end pointers.
+5. If the characters are equal, we increment the start pointer and decrement the end pointer.
+6. If the characters are not equal, we return false.
+7. If the pointers cross each other, we return true.
