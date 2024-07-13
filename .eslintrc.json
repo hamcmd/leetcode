@@ -237,7 +237,7 @@
         "next": "block-like"
       }
     ],
-    "prefer-const": "warn",
+    "prefer-const": "off",
     "prettier/prettier": "off",
     "quotes": [
       "warn",
