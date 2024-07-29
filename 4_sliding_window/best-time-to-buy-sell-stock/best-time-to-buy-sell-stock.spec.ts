@@ -1,0 +1,32 @@
+import { maxProfit } from "./best-time-to-buy-sell-stock";
+
+test( "best-time-to-buy-sell-stock", () => {
+  expect( maxProfit( [ 7, 1, 5, 3, 6, 4 ] ) ).toBe( 5 );
+  expect( maxProfit( [ 7, 6, 4, 3, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 2, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 2, 4, 1 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 1, 2, 4 ] ) ).toBe( 3 );
+  expect( maxProfit( [ 1, 4, 2 ] ) ).toBe( 3 );
+  expect( maxProfit( [ 4, 1, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 4, 2, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 1, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 1, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 1, 2, 1 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 2, 1, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 2, 1, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 2, 2, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 2, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 2, 2, 2 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 2, 3 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 1, 3, 2 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 2, 1, 3 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 2, 3, 1 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 3, 1, 2 ] ) ).toBe( 1 );
+  expect( maxProfit( [ 3, 2, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 3, 3 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 3, 1, 3 ] ) ).toBe( 2 );
+  expect( maxProfit( [ 3, 3, 1 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 3, 3, 3 ] ) ).toBe( 0 );
+  expect( maxProfit( [ 1, 3, 4 ] ) ).toBe( 3 );
+} );
