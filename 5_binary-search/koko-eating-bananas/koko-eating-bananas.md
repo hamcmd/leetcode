@@ -26,3 +26,12 @@ __Output__: 23
 `1 <= piles.length <= 104`
 `piles.length <= h <= 109`
 `1 <= piles[i] <= 109`
+
+## Solution Notes
+- We solve this problem using a binary search approach.
+- We save the left and right pointers as 1 and the maximum pile of bananas respectively.
+- While the left pointer is less than or equal to the right pointer:
+    - Calculate the mid speed.
+    - Calculate the hours it will take to eat all the bananas at the mid speed.
+    - If the hours are less than or equal to the given hours, update the right pointer to the mid speed.
+    - If the hours are greater than the given hours, update the left pointer to the mid speed + 1.
