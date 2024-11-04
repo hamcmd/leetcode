@@ -13,4 +13,7 @@
     "**/node_modules": true,
     "**/docs": true
   },
+  "cSpell.words": [
+    "nums"
+  ],
 }
