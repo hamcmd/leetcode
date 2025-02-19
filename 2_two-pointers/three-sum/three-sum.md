@@ -1,14 +1,17 @@
 # 3Sum
+
 __Question__: [LeetCode # 15](https://leetcode.com/problems/3sum/)
 __Difficulty__: Medium
 __Solution__: [NeetCode](https://youtu.be/jzZsG8n2R9A)
 
 ## Description
+
 Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
 
 ___Notice that the solution set must not contain duplicate triplets.___
 
 ## Examples
+
 __Input__: `nums = [-1,0,1,2,-1,-4]`
 __Output__: `[[-1,-1,2],[-1,0,1]]`
 __Explanation__:
@@ -26,12 +29,13 @@ __Input__: `nums = [0,0,0]`
 __Output__: `[[0,0,0]]`
 __Explanation__: The only possible triplet sums up to 0.
 
+## Constraints
 
-## Constraints:
 `3 <= nums.length <= 3000`
 `-105 <= nums[i] <= 105`
 
-## Solution Notes:
+## Solution Notes
+
 1. If we lock the first element of the triplet, the problem reduces to finding two numbers that sum up to the negative of the first element. Which is exactly the problem we solved in Two Sum II/Two Sum.
 2. We can use the two-pointer approach to solve this problem.
 3. We sort the array and iterate over the array.
